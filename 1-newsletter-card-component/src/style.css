@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(136, 156, 161);
+}
+
+.newsletter-card {
+  text-align: center;
+  padding: 40px 50px;
+  width: 670px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 8px rgb(221, 221, 221);
+
+  /* vertically and horizontally center */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.newsletter-title {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.email-input-wrapper {
+  padding-bottom: 10px;
+}
+
+.newsletter-subtitle {
+  font-weight: lighter;
+  font-size: smaller;
+  padding: 10px 0;
+}
+
+input[type=email] {
+  background-color: white;
+  border-radius: 3px;
+  width: 70%;
+  padding: 8px 10px;
+  border: 1px solid;
+  border-color: rgba(211, 211, 211, 0.9);
+}
+
+input[type=email]::placeholder {
+  color: rgb(176, 176, 176);
+}
+
+button[type=submit] {
+  border-radius: 3px;
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+}
+
+form {
+  width: 100%;
+}
+
+.checkbox-statement-wrapper {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.checkbox {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.checkbox-statement {
+  padding-left: 5px;
+  display: block;
+  font-size: x-small;
+  text-align: justify;
+}
+
+/* write your CSS here */
