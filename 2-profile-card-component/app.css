@@ -1,0 +1,87 @@
+.profile-picture>img {
+    width: 5rem;
+    border: 4px solid #f1f5f9;
+    border-radius: 100%;
+}
+
+body {
+    background-color: #f8fafc;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: #f8fafc;
+    border: 8px solid white;
+}
+
+.profile-name {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.profile-role {
+    font-size: smaller;
+    font-weight: lighter;
+    color: #334155;
+}
+
+.profile-detail {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-description {
+    font-size: small;
+    max-width: 19rem;
+}
+
+.profile-statistics {
+    display: flex;
+    text-align: center;
+    font-size: small;
+    gap: 25px;
+    margin: 5px 0;
+}
+
+.profile-statistics>div {
+    font-size: smaller;
+}
+
+.profile-statistics>hr {
+    padding: 0;
+    margin: 0;
+    border: 0.1px solid black;
+}
+
+.action-button {
+    display: flex;
+    gap: 10px;
+}
+
+.follow-button {
+    background-color: #a5f3fc;
+    padding: 8px 22px;
+}
+
+.view-button {
+    padding: 8px 10px;
+    background-color: #fed7aa;
+}
+
+button {
+    font-size: x-small;
+    border: 1px solid black;
+    border-radius: 3px;
+}

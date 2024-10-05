@@ -4,84 +4,51 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(136, 156, 161);
+html {
+  background-color: #E6E9FB;
+  font-size: 62.5%;
 }
 
 .newsletter-card {
-  text-align: center;
-  padding: 40px 50px;
-  width: 670px;
+  margin: 29.6em 17.3em;
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 8px 8px rgb(221, 221, 221);
-
-  /* vertically and horizontally center */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  padding: 7.4em;
+  border-radius: 16px;
 }
 
 .newsletter-title {
-  font-weight: bold;
-  font-size: x-large;
-}
-
-.email-input-wrapper {
-  padding-bottom: 10px;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+  font-weight: bolder;
 }
 
 .newsletter-subtitle {
-  font-weight: lighter;
-  font-size: smaller;
-  padding: 10px 0;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-left: 11.1rem;
+  margin-right: 11.1rem;
 }
 
-input[type=email] {
-  background-color: white;
-  border-radius: 3px;
-  width: 70%;
-  padding: 8px 10px;
-  border: 1px solid;
-  border-color: rgba(211, 211, 211, 0.9);
+.form-item-wrapper {
+  margin-top: 2.4rem;
 }
 
-input[type=email]::placeholder {
-  color: rgb(176, 176, 176);
+.email-input-wrapper {
+  text-align: center;
 }
 
-button[type=submit] {
-  border-radius: 3px;
-  padding: 8px 10px;
-  background-color: black;
-  color: white;
+.email-input-wrapper input {
+  width: 59.9rem;
+  height: 7.2rem;
+  border-radius: 8px;
+  border: 1px solid #B3B8D8;
 }
 
-form {
-  width: 100%;
-}
-
-.checkbox-statement-wrapper {
-  display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.checkbox {
-  width: 10px;
-  height: 10px;
-  padding: 0;
-  margin: 0;
-  display: block;
-}
-
-.checkbox-statement {
-  padding-left: 5px;
-  display: block;
-  font-size: x-small;
-  text-align: justify;
+.email-input-wrapper input::placeholder {
+  padding-left: 3.2rem;
+  color: #B3B8D8;
+  font-size: 2.4rem;
 }
 
 /* write your CSS here */
